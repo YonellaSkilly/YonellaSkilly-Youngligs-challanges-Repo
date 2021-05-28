@@ -1,0 +1,408 @@
+/*Nav bar*/
+
+nav{
+    margin-left: 5px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 5%;
+    width: 85%;
+    z-index: 1;
+    position:fixed;
+    left:0px;
+    top: 0px;
+}
+
+.nav-links{
+    
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+    font-size: 30px;
+}
+.nav-links ul li a{
+    text-transform: uppercase;
+    color:black;
+   
+    text-decoration: none;
+    font-size: 20px;
+    border: 1px solid transparent;
+    padding: 7px 10px;
+    border-radius: 3px;  
+} 
+a.active,a:hover{
+    background: #df86cd;
+    transition: .5s;
+  }
+  .logo img{
+      background-position: top left;
+      width: 175px;
+      margin-top: 9px;
+}
+.header {
+    width: 100%;
+    height: 95vh;
+    background-image: url("../SakumlandelaPrimary/images/schol.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+@media screen and (max-width: 990px){
+    nav{
+        padding: 0px 10%;
+    }
+    .nav-links ul li a{
+       font-size: 18px;
+    }
+
+}
+    
+
+/*end nav bar*/
+
+/* Home page  */
+.text-container {
+    width: 100%;
+    height: 95vh;
+    background-image: url("../SakumlandelaPrimary/images/back.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+   
+}
+.text-container h1{
+        margin: 20px;
+        color: black;
+        font-size: 30px;
+        font-weight: 700;
+        text-align: center;
+        margin-top: 50px;
+     
+    }
+.text-container p{
+    text-align: center;
+    margin: 45px 0px 25px;
+    color: black;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.text-container h2{   
+    text-align: center;
+    width: 75%;
+    left: 12%;
+    top: 2rem;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+/* extra mural page  */
+.extra-container {
+    width: 100%;
+    height: 95vh;
+    background-image: url("../SakumlandelaPrimary/images/back.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+   
+}
+.extra-container h2{
+    position: absolute;
+    text-align: center;
+    width: 75%;
+    left: 12%;
+    top: 2rem;
+    font-size: 30px;
+    font-weight: 700;
+   
+    }
+.extra-container img{
+    width: 40%;
+    height: 45vh;
+    position: relative;
+}
+.imag img{
+    height: 430px;
+    position:absolute;
+    bottom: 30px;
+    left: 85%;
+    transform: translate(-75%);  
+}
+.para{
+color: black; 
+height: 450px;
+position:absolute;
+bottom: 180px;
+left: 70%;
+transform: translate(-75%); 
+}
+.extra-container{
+    color: black;
+    position: relative;
+
+}
+
+/* Uniform page  */
+.uniform-container {
+    width: 100%;
+    height: 95vh;
+    background-image: url("../SakumlandelaPrimary/images/back.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.uniform-container h2{
+    position: absolute;
+    text-align: center;
+    width: 75%;
+    left: 12%;
+    top: 2rem;
+    font-size: 30px;
+    font-weight: 700;
+    }
+
+.uniform-container img{
+    height: 430px;
+    position:absolute;
+    left: 55%;
+    transform: translate(-55%); 
+    margin-top: 8%;
+}
+
+/* contact page  */
+
+.content {
+    width: 100%;
+    height: 95vh;
+    background-image: url("../SakumlandelaPrimary/images/back.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+} 
+.content{
+    display: flex;
+    min-height: 110vh;
+    color: black;
+}
+.content section{
+    margin-top: 8vh;
+    margin-left: 20vh;
+}
+
+.content h3{
+    position: absolute;
+    text-align: center;
+    width: 75%;
+    left: 12%;
+    top: 2rem;
+    font-size: 30px;
+    font-weight: 700;
+}
+.content img{
+    position:absolute;
+    left:4px ; 
+} 
+
+footer ul{
+    list-style: none;
+    display: flex;
+    margin: 1em 0; 
+}
+footer ul li a{
+    padding: 1em; 
+    text-decoration: none;
+    color: rgba(20, 20, 20, 0.904);
+    transition: 100ms;
+}
+
+.sticky-footer{
+    position: sticky;
+    top: 100%;
+}
+footer ul li a:hover{
+    color: var(--primary);
+}
+
+footer{
+    width: 100%;
+    background: #d15c5c;
+    color: #fff; 
+    display: grid;
+    place-items: center;
+    padding: 2em; 
+    font-size: 1.2rem;
+}
+
+.form{
+    display: flex;
+    position: absolute;
+    bottom:-3000px;
+    left: 0;
+    margin-left: 50%;
+    justify-content: center;
+    align-items: center;
+    min-height: 95vh;
+    color: black;
+}
+
+label{
+    width: 30rem;
+    background-color: transparent;
+    border: 0px;
+    border: transparent;
+    margin: 20px;
+    padding: 10px;
+    font-size: 18px;
+    border-bottom: 2px solid rgb(15, 15, 15)
+}
+.form .contact-form input{
+    width: 30rem;
+    background-color: transparent;
+    border: 0px;
+    border: transparent;
+    margin: 20px;
+    padding: 10px;
+    font-size: 18px;
+    border-bottom: 2px solid rgb(15, 15, 15);
+}
+.form .contact-form input ~ span{
+    position: absolute;
+    left: 20px;
+    transition: 0.9s ease-in-out;
+    margin-top: 20px;
+}
+.form .contact-form input:focus ~span{
+    transform: translateY(-20px);
+    pointer-events: none;
+}
+.form .contact-form textarea{
+    width: 30rem;
+    border: 0px;
+    background-color: transparent;
+    margin: 20px;
+    font-size: 17px;
+    border-bottom: 2px solid rgb(10, 10, 10);
+}
+.form .contact-form textarea ~ span
+{
+    position: absolute;
+    left: 20px;
+    margin-top: 10px;
+    transition: 0.9s ease-in-out;
+}
+.form .contact-form textarea:focus ~span{
+    transform: translateY(-20px);
+    pointer-events: none;
+}
+.form .contact-form input[type=submit]{
+    background-color: rgb(194, 98, 106);
+    border: 2px solid rgb(189, 90, 90);
+    font-size: 18px;
+    width: 50%;
+    height: 40px;
+    margin-top: -5px;
+}
+.form .contact-form input[type=submit]:hover{
+    background-color: transparent;
+    color:rgb(194, 98, 106);
+}
+
+.extra p{
+    padding: 0 6%;
+
+}
+
+  @media(max-width:800px){
+
+    nav{
+        margin-left:10px;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 1%;
+     
+        width: 90%;
+        z-index: 1;
+        position:fixed;
+        left:0px;
+        top: 0px;
+    }
+    .header {
+        width: 200%;
+        background-image: url("../SakumlandelaPrimary/images/schol.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+    .text-container h1{
+        margin: 10px;
+        color: black;
+        font-size: 30px;
+        font-weight: 700;
+        text-align: center;
+        margin-top: 100px;
+     
+    }
+
+.text-container {
+    width: 200%;
+    background-image: url("../SakumlandelaPrimary/images/back.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+   
+}
+.text-container h2{   
+    text-align: center;
+    width: 100%;
+    left: 12%;
+    top: 2rem;
+    font-size: 30px;
+    font-weight: 700;
+}
+.uniform-container {
+    width: 200%;
+    background-image: url("../SakumlandelaPrimary/images/back.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.uniform-container img{
+    height: 500px;
+    position:absolute;
+    left: 55%;
+    transform: translate(-55%); 
+    margin-top: 8%;
+}
+.extra-container {
+    width: 200%;
+    background-image: url("../SakumlandelaPrimary/images/back.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+   
+}
+
+        .content {
+            width: 200%;
+            height: 95vh;
+            background-image: url("../SakumlandelaPrimary/images/back.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            position: relative;
+        } 
+        
+footer{
+    width: 200%;
+    background: #d15c5c;
+    color: #fff; 
+    display: grid;
+    place-items: center;
+    padding: 2em; 
+    font-size: 1.2rem;
+}
+  }
