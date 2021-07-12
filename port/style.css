@@ -304,7 +304,7 @@ label{
     pointer-events: none;
 }*/
 .form .btn[type=submit]{
-    background-color: rgb(194, 98, 106);
+    background-color:rgb(247, 179, 235);
     font-size: 18px;
     width: 50%;
     height: 40px;
